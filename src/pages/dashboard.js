@@ -1,5 +1,6 @@
 import React  from 'react';
 import { useRouter } from 'next/router';
+import '../app/globals.css'
 
 function Dashboard({ username }) {
   const router = useRouter();
